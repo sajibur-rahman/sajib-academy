@@ -1,11 +1,12 @@
 import '../styles/App.css';
 import Layout from "./Layout";
+import Home from './pages/Home';
 
 
 function App() {
   return (
     <Layout>
-      <h1>welcome to sajib academy</h1>
+      <Home/>
     </Layout>
   );
 }
