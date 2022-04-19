@@ -1,10 +1,12 @@
-import './App.css';
+import '../styles/App.css';
+import Layout from "./Layout";
+
 
 function App() {
   return (
-    <div className="App">
+    <Layout>
       <h1>welcome to sajib academy</h1>
-    </div>
+    </Layout>
   );
 }
 
